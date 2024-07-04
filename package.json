@@ -1,0 +1,39 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.25.2",
+    "@strapi/plugin-i18n": "^4.15.0",
+    "@strapi/plugin-users-permissions": "^4.15.0",
+    "@strapi/strapi": "^4.24.5",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "mysql": "2.18.1",
+    "mysql2": "^3.10.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3",
+    "vite-plugin-env-compatible": "^2.0.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "9bd557c6-d0c9-478e-b28d-3dfaf7484627"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
